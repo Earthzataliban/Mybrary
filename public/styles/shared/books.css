@@ -4,10 +4,11 @@
     --book-cover-aspect-ratio: 0.75;
   }
   
-  .book-cover {
-    width: var(--book-cover-width);
-    height: calc(var(--book-cover-width) / var(--book-cover-aspect-ratio));
-  }
+ 
+.book-cover {
+  width: var(--book-cover-width);
+  height: calc(var(--book-cover-width) / var(--book-cover-aspect-ratio));
+}
   
   .book-cover-large {
     --book-cover-width: var(--book-cover-width-large);
